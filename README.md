@@ -6,7 +6,7 @@ Usage:
 - cd rust_template
 - git init
 - mv rust_template to any name you want
-- Edit Cargo.toml to suite your needs
+- Edit Cargo.toml to suit your needs
 
 Install Rust:
 - curl https://sh.rustup.rs -sSf | sh
