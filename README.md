@@ -1,6 +1,6 @@
 # rust_template
 
-usage:
+Usage:
 - git clone https://github.com/whl36512/rust_template
 - rm -rf rust_template/.git
 - cd rust_template
