@@ -24,7 +24,7 @@ The Rust module rules are:
 
 Testing: 
 - Unit test: cargo test --lib
-- Unit test and test everything in  tests/ , bin/ and ./main.rs : cargo test
-- Run a particular test in bin/  : cargo test --bin abc
-- Run a particular test in tests/  : cargo test --test abc
-- Run a particular test in examples/  : cargo test --example abc
+- Unit test and test everything in  tests/ , bin/ and ./main.rs with #[test] tag: cargo test
+- Run a particular test in bin/  with #[test] tag : cargo test --bin abc
+- Run a particular test in tests/  with #[test] tag : cargo test --test abc
+- Run a particular test in examples/  with #[test] tag : cargo test --example abc
