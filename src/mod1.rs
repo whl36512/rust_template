@@ -1,4 +1,4 @@
-
+use super::mod2;
 
 #[cfg(test)]
 mod tests {
