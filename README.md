@@ -28,3 +28,8 @@ Testing:
 - Run a particular test in bin/  with #[test] tag : cargo test --bin abc
 - Run a particular test in tests/  with #[test] tag : cargo test --test abc
 - Run a particular test in examples/  with #[test] tag : cargo test --example abc
+
+Formatting
+- cargo install cargo-watch
+- cargo watch -x fmt &
+- For integation with an editor, see rust-fmt documentaion
