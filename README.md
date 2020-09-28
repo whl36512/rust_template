@@ -33,3 +33,6 @@ Formatting
 - cargo install cargo-watch
 - cargo watch -x fmt &
 - For integation with an editor, see rust-fmt documentaion
+
+Print stdout when running test
+- cargo test -- --nocapture
