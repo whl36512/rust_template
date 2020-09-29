@@ -6,9 +6,8 @@ authors = ["whl36512 <whl36512@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-# router = "*"
-
-
+log = "*"
+env_logger = "*"
 
 [profile.release]
 opt-level = 'z'     # Optimize for size.
